@@ -1,0 +1,13 @@
+---
+alwaysApply: true
+---
+
+STRANGLER CORE GUARDRAILS:
+
+Primary Mission: Demonstrate the "Bridge" between Rails (GraphQL) and Python (Lambda).
+
+Strict Ban: Do not add complex UI, real LLM API calls (use mock responses), or persistent Python databases.
+
+Data Flow: All data MUST flow through the GraphQL resolver. No "leaking" logic between layers.
+
+Validation: Every Python input MUST be wrapped in a Pydantic model.

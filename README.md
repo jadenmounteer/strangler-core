@@ -15,4 +15,3 @@ Inspired by the Strangler Fig pattern, this project demonstrates how to decouple
 4. Python Lambda: Uses Pydantic to validate the incoming property context. It simulates an AI analysis—calculating a leaseHealthScore and generating a tactical actionItem (e.g., "Initiate renewal sequence immediately").
 
 5. Rails Gateway: Receives the Python JSON, validates that it matches the SmartSummaryType definition, and merges it with the property data to send a single, unified response back to the React client.
-# strangler-core
